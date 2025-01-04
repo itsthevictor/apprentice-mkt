@@ -7,7 +7,6 @@ import DashboardLayout from "./layouts/DashboardLayout";
 import Main, { initialLoader } from "./layouts/Main";
 import Error from "./pages/Error";
 import "react-toastify/dist/ReactToastify.css";
-import AddTask, { addTaskAction } from "./pages/AddTask";
 
 import Listings, { listingsLoader } from "./pages/Listings";
 import { searchAction } from "./actions/search";
@@ -33,7 +32,7 @@ function App() {
           element: <Listings />,
           errorElement: <Error />,
           path: "list",
-          loader: classesLoader,
+          loader: listingsLoader,
         },
         {
           element: <ListingPage />,

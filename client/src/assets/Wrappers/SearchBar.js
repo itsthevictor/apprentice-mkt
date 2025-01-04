@@ -10,7 +10,7 @@ const Wrapper = styled.section`
     align-items: center;
     justify-content: center;
     /* background-image: url("/lego.jpg") */
-    background-image: url("https://res.cloudinary.com/dgp67jheg/image/upload/v1716456370/junior%20markt/artisan_gdictl.webp");
+    background-image: url("https://res.cloudinary.com/dgp67jheg/image/upload/v1736016074/istockphoto-1210182326-2048x2048_ghtgft.jpg");
 
     /* background: chartreuse; */
     background-repeat: no-repeat;
