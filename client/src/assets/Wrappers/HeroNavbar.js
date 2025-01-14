@@ -4,7 +4,7 @@ const Wrapper = styled.section`
   border-bottom: 1px solid #dce0e6;
 
   .burger-menu {
-    color: #0d7a5f;
+    color: rgb(67, 45, 165);
     cursor: pointer;
     border: none !important;
     /* position: absolute; */
