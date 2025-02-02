@@ -62,7 +62,7 @@ const Navbar = ({ authData }) => {
 
         <div className="logo-container">
           <h3 className="logo">
-            <Link to="/">ghidul ucenicului</Link>
+            <Link to="/">apprenti</Link>
           </h3>
         </div>
         <div className="menu">

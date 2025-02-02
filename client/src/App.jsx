@@ -12,6 +12,8 @@ import Listings, { listingsLoader } from "./pages/Listings";
 import { searchAction } from "./actions/search";
 import ListingPage, { singleListingLoader } from "./pages/ListingPage";
 import AddListing from "./pages/AddListing";
+import Admin from "./pages/Admin";
+import ProtectedRoute from "./components/ProtectedRoute";
 function App() {
   const router = createBrowserRouter([
     {
@@ -63,6 +65,15 @@ function App() {
           path: "dashboard",
           element: <DashboardLayout />,
           // loader: dashboardLoader,
+          errorElement: <Error />,
+        },
+        {
+          path: "admin",
+          element: (
+            <ProtectedRoute>
+              <Admin />
+            </ProtectedRoute>
+          ),
           errorElement: <Error />,
         },
       ],
