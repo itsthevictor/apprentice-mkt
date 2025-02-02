@@ -40,7 +40,7 @@ textarea {
   --lh-1-4: 1.4;
 
   /* colors */
-  --accent: 251, 57%, 41%;
+  --accent: 250, 57%, 41%;
   --bkg: 40 20% 97%;
   --bkg-muted: 165 50% 93%;
   --text: 185 26% 19%;
@@ -54,11 +54,11 @@ textarea {
   --border-hover: 40 20% 65%;
   --label: 40 20% 28%;
   --success: 162 86% 37%;
-  --accent-hover: 165, 81%, 16%;
-  --accent-logo: 165, 81%, 10%;
-  --accent-200: 165, 21%, 66%;
-  --accent-300: 165, 21%, 86%;
-  --accent-400: 165, 21%, 93%;
+  --accent-hover: 251, 57%, 46%;
+  --accent-logo: 251, 57%, 30%;
+  --accent-200: 251, 57%, 76%;
+  --accent-300: 251, 37%, 76%;
+  --accent-400: 251, 57%, 98%;
   /* color: #0d785d; */
 
   /* utils */

@@ -1,8 +1,7 @@
-import { activities } from "../data/activities";
+import { industries } from "../data/industries.js";
 import { counties } from "../data/counties";
-import { Form } from "react-router-dom";
 import Wrapper from "../assets/Wrappers/AddListing";
-import { DropdownSelect, Dropzone } from "../components";
+import { DropdownSelect } from "../components";
 
 import { useCallback, useState, useRef } from "react";
 import { useDropzone } from "react-dropzone";
@@ -110,6 +109,10 @@ const AddListingForm = () => {
     { value: "pulp-fiction", label: "Pulp Fiction" },
   ];
 
+  const sortedIndustries = [...industries].sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
+
   return (
     <Wrapper>
       {" "}
@@ -129,9 +132,9 @@ const AddListingForm = () => {
           </div>
 
           <div className="row">
-            <label htmlFor="category">categoria</label>
+            <label htmlFor="category">domeniul</label>
             <select name="type" id="category">
-              {activities.map((item, i) => (
+              {sortedIndustries.map((item, i) => (
                 <option key={i} value={item.name}>
                   {item.name}
                 </option>

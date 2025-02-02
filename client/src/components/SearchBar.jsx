@@ -1,6 +1,6 @@
 import DropdownSelect from "./DropdownSelect";
 import { counties } from "../data/counties";
-import { activities } from "../data/activities";
+import { industries } from "../data/industries";
 import { LISTING_CATEGORY } from "../../../utils/constants";
 import Wrapper from "../assets/Wrappers/SearchBar";
 import { FaMagnifyingGlass } from "react-icons/fa6";
@@ -21,7 +21,7 @@ const SearchBar = () => {
             county
           />
           <DropdownSelect
-            data={activities}
+            data={industries}
             defaultOption={"toate activitățile"}
             name={"type"}
           />

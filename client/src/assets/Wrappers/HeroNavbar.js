@@ -91,9 +91,9 @@ const Wrapper = styled.section`
       align-items: center;
 
       .link-btn {
-        color: #0d7a5f;
+        color: hsl(var(--accent));
         padding: 8px 25px;
-        border: 1px solid #0d7a5f;
+        border: 1px solid hsl(var(--accent-hover));
         border-radius: var(--round-md);
         margin-left: -15px;
         font-weight: 600;

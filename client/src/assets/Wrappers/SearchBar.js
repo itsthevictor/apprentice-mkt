@@ -57,6 +57,7 @@ const Wrapper = styled.section`
       color: white;
       background: hsl(var(--accent));
       text-transform: capitalize;
+      transition: all 0.2s ease;
 
       span {
         -moz-transform: scale(-1, 1);

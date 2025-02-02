@@ -50,10 +50,14 @@ const Wrapper = styled.div`
           padding: 8px 20px;
           border-radius: var(--round-sm);
           outline: none;
-          border: 1px solid hsl(var(--accent-200));
+          border: 1px solid hsl(var(--accent-300));
           width: 100%;
           font-size: 1.15em;
           background: hsl(var(--accent-400));
+        }
+
+        select{
+          text-transform:capitalize;
         }
 
         textarea{
